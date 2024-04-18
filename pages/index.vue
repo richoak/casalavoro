@@ -1,8 +1,20 @@
 <template>
-  <NuxtLayout name="hello">
-    <template #title>{{ productName }}</template>
-    <template #message>{{ message }}</template>
-  </NuxtLayout>
+  <main>
+    <hero-section />
+    <hero-feature />
+    <feature-one />
+    <feature-two />
+    <feature-three />
+    <feature-four />
+    <stat-section />
+    <!-- <testimonial-section /> -->
+    <updated-testimonials />
+    <cta-section />
+    <frequently-asked-questions />
+    <contact-map />
+    <contact-section />
+    <footer-section />
+  </main>
 </template>
 
 <script setup lang="ts">
