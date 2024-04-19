@@ -12,13 +12,15 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.17.0",
     "autoprefixer": "^10.4.15",
     "nuxt": "^v3.7.3",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^3.0.0-beta.2",
-    "aos": "^3.0.0-beta.6"
+    "@nuxtjs/pwa": "^3.3.5",
+    "aos": "^3.0.0-beta.6",
+    "vue3-toastify": "^0.2.1"
   }
 }
