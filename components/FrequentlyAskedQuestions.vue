@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="bg-white">
-            <div class="mx-auto max-w-7xl px-6 py-24 sm:pt-10 lg:px-8 lg:py-10">
+            <div class="mx-auto max-w-7xl px-6 py-10 sm:pt-10 lg:px-8 lg:py-10">
                 <div class="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div class="lg:col-span-5" data-aos="fade-left">
                         <h2 class="text-3xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked
@@ -11,7 +11,7 @@
                                 class="font-semibold text-indigo-600 hover:text-indigo-500">customer support</a> team.
                         </p>
                     </div>
-                    <div class="lg:col-span-7 lg:mt-0 space-y-8" data-aos="fade-left">
+                    <div class="lg:col-span-7 lg:mt-0 space-y-8 pt-6 md:pt-0" data-aos="fade-left">
                         <div v-for="item in faqs" :key="item.id" class="overflow-hidden border-b">
                             <button
                                 class="w-full text-left py-2 transition-colors duration-300 flex justify-between items-center pb-9"

@@ -4,14 +4,13 @@
     <hero-feature />
     <feature-one />
     <feature-two />
+    
     <feature-three />
     <feature-four />
     <stat-section />
-    <!-- <testimonial-section /> -->
     <updated-testimonials class="" />
     <cta-section />
     <frequently-asked-questions />
-    <!-- <contact-map /> -->
     <contact-section id="contact-section" />
     <footer-section />
   </main>
