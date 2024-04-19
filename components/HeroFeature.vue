@@ -4,13 +4,13 @@
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:ml-auto lg:pl-4 lg:pt-4">
           <div class="lg:max-w-lg">
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Unlock Your Business Potential
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" data-aos="fade-up">Unlock Your Business Potential
               with Powerful Software Development Solutions</p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">At Buildr, we offer cutting-edge software development
+            <p class="mt-6 text-lg leading-8 text-gray-600" data-aos="fade-up">At Buildr, we offer cutting-edge software development
               services that drive business growth and innovation. Our team of experts specializes in creating robust web
               and mobile applications tailored to meet the unique needs of your business</p>
             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-              <div class="relative pl-9">
+              <div class="relative pl-9" data-aos="fade-up">
                 <dt class="inline font-semibold text-gray-900">
                   <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
                     aria-hidden="true">
@@ -22,7 +22,7 @@
                 </dt>
                 <dd class="inline">Accelerate your business growth with custom-built software solutions.</dd>
               </div>
-              <div class="relative pl-9">
+              <div class="relative pl-9" data-aos="fade-up">
                 <dt class="inline font-semibold text-gray-900">
                   <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor"
                     aria-hidden="true">
@@ -37,8 +37,8 @@
             </dl>
           </div>
         </div>
-        <div class="flex items-start justify-end lg:order-first">
-          <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+        <div class="flex items-start justify-end lg:order-first" data-aos="fade-up">
+          <img  src="@/assets/img/hero2.jpg"
             alt="Product screenshot"
             class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432"
             height="1442">

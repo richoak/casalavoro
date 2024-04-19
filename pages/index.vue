@@ -8,10 +8,10 @@
     <feature-four />
     <stat-section />
     <!-- <testimonial-section /> -->
-    <updated-testimonials />
+    <updated-testimonials class="" />
     <cta-section />
     <frequently-asked-questions />
-    <contact-map />
+    <!-- <contact-map /> -->
     <contact-section />
     <footer-section />
   </main>
