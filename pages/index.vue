@@ -10,6 +10,7 @@
     <stat-section />
     <updated-testimonials class="" />
     <cta-section />
+   <project-section></project-section>
     <frequently-asked-questions />
     <contact-section id="contact-section" />
     <footer-section />
