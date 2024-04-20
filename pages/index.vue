@@ -1,12 +1,12 @@
 <template>
   <main>
-    <hero-section />
-    <hero-feature />
-    <feature-one />
-    <feature-two />
-    
-    <feature-three />
-    <feature-four />
+    <hero-section id="about-section" />
+    <hero-feature id="services-section" />
+    <feature-one id="services-section" />
+    <feature-two id="services-section" />
+
+    <feature-three id="services-section" />
+    <feature-four id="services-section" />
     <stat-section />
     <updated-testimonials class="" />
     <cta-section />
