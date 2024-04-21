@@ -44,7 +44,7 @@
                     <div
                     class="relative isolate overflow-hidden sm:mx-auto sm:max-w-2xl sm:rounded-3xl  lg:mx-0 lg:max-w-none">
                     <div class="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-                        <img src="@/assets/img/hero1.jpg" alt="Product screenshot" width="2432" height="1442" data-aos="fade-up" data-aos-delay="100"
+                        <img src="@/assets/img/product.jpg" alt="Product screenshot" width="2432" height="1442" data-aos="fade-up" data-aos-delay="100"
                             class="-mb-12 w-[57rem] max-w-none rounded-tl-xl bg-gray-800 ring-1 ring-white/10">
                     </div>
                     <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"

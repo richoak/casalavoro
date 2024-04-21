@@ -24,6 +24,7 @@
                 <div class="hidden lg:flex lg:gap-x-12">
                     <a href="#about-section" class="text-sm font-semibold leading-6 text-gray-900">About us</a>
                     <a href="#services-section" class="text-sm font-semibold leading-6 text-gray-900">Services</a>
+                    <a href="#projects" class="text-sm font-semibold leading-6 text-gray-900">Projects</a>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a href="#contact-section" class="text-sm font-semibold leading-6 text-gray-900">Contact us<span
@@ -58,6 +59,8 @@
                                     us</a>
                                 <a @click.prevent="openSidebar = false" href="#services-section"
                                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Services</a>
+                                    <a @click.prevent="openSidebar = false" href="#projects"
+                                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Projects</a>
                             </div>
                             <div class="py-6">
                                 <a @click.prevent="openSidebar = false" href="#contact-section"
@@ -139,8 +142,7 @@
                                 </div>
                                 <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                                     <div class="relative" data-aos="flip-left">
-                                        <img src="@/assets/img/hero4.jpg"
-                                            alt=""
+                                        <img src="@/assets/img/hero4.jpg" alt=""
                                             class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                             data-aos="flip-left">
                                         <div
@@ -148,8 +150,7 @@
                                         </div>
                                     </div>
                                     <div class="relative" data-aos="flip-left">
-                                        <img src="@/assets/img/hero5.jpg"
-                                            alt=""
+                                        <img src="@/assets/img/hero5.jpg" alt=""
                                             class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                                             data-aos="flip-left">
                                         <div
@@ -241,7 +242,7 @@
                         data-aos="fade-up">
                         Accelerate your digital growth with Buildr</h1>
                     <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-                        <p class="text-lg leading-8 text-gray-600" data-aos="fade-left" data-aos-delay="100">We
+                        <p class="text-lg leading-8 text-gray-600" data-aos="fade-up" data-aos-delay="100">We
                             specialize in software development, product
                             design, and bespoke solutions to help businesses innovate and thrive in the digital age.</p>
                         <div class="mt-10 flex items-center gap-x-6">
