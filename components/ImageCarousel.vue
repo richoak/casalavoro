@@ -1,130 +1,3 @@
-<!-- <template>
-    <div class="relative overflow-hidden w-full h-[500px]">
-        <div class="flex animate-scroll">
-          <div class="flex-none w-full" v-for="(image, index) in allImages" :key="index">
-            <img :src="image" alt="Carousel image" class="w-full h-[500px] object-cover">
-          </div>
-        </div>
-      </div>
-</template>
-
-<script setup lang="ts">
-import carousel1 from '@/assets/img/hero1.jpg'
-import carousel2 from '@/assets/img/hero2.jpg'
-import carousel3 from '@/assets/img/hero3.jpg'
-import carousel4 from '@/assets/img/hero4.jpg'
-import carousel5 from '@/assets/img/hero5.jpg'
-const images = ref([
-  carousel1, carousel2, carousel3, carousel4, carousel5
-]);
-
-const allImages = computed(() => [...images.value, ...images.value]);
-</script>
-
-<style scoped>
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-scroll {
-  width: calc(200% - 0.5rem);
-  /* Adjust based on your actual needs */
-  display: flex;
-  animation: scroll 10s linear infinite;
-}
-</style> -->
-
-<!-- <template>
-    <main>
-        <h1></h1>
-        <div class="carousel-container relative overflow-hidden w-full h-64" ref="carousel">
-            <div class="carousel-track flex" :style="{ 'animation-duration': scrollSpeed + 's' }">
-                <div class="flex-none border-2 border-red-500 h-[500px] w-full" v-for="(image, index) in allImages"
-                    :key="index">
-                    <img :src="image" alt="Carousel image" class="w-full h-[500px] object-cover">
-                </div>
-            </div>
-        </div>
-    </main>
-</template>
-
-<script lang="ts" setup>
-import carousel1 from '@/assets/img/business1.jpeg'
-import carousel2 from '@/assets/img/business2.jpeg'
-import carousel3 from '@/assets/img/business3.jpeg'
-import carousel4 from '@/assets/img/business4.jpeg'
-import carousel5 from '@/assets/img/business5.jpeg'
-const images = ref([
-    carousel1, carousel2, carousel3, carousel4, carousel5
-]);
-
-
-const allImages = computed(() => [...images.value, ...images.value]);
-
-const scrollSpeed = 10;
-const carousel = ref<HTMLElement | null>(null);
-
-const startScroll = (element: HTMLElement, speed: number) => {
-    const totalWidth = element.clientWidth / 2;
-    let currentPosition = 0;
-
-    const step = () => {
-        currentPosition += 1;
-        if (currentPosition >= totalWidth) {
-            currentPosition = 0;
-        }
-        element.scrollTo(currentPosition, 0);
-    };
-
-    const intervalId = setInterval(step, speed * 10);
-
-    return () => clearInterval(intervalId);
-};
-
-let stopScroll: (() => void) | undefined;
-
-onMounted(() => {
-    if (carousel.value) {
-        stopScroll = startScroll(carousel.value, scrollSpeed);
-    }
-});
-
-onUnmounted(() => {
-    if (stopScroll) {
-        stopScroll();
-    }
-});
-</script>
-
-<style scoped>
-.carousel-container {
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel-track {
-    will-change: transform;
-    display: flex;
-    animation: scroll linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
-}
-</style> -->
-
 <template>
     <main class="bg-white dark:bg-gray-900">
         <section class="container px-6 py-10 mx-auto space-y-10">
@@ -154,13 +27,13 @@ onUnmounted(() => {
 import carousel1 from '@/assets/img/business1.png'
 import carousel2 from '@/assets/img/business2.png'
 import carousel3 from '@/assets/img/business3.png'
-import carousel4 from '@/assets/img/business4.png'
 import carousel5 from '@/assets/img/business5.png'
+import carousel6 from '@/assets/img/business7.png'
 export default defineComponent({
     name: 'ContinuousCarousel',
     setup() {
         const images = ref([
-            carousel1, carousel2, carousel3, carousel4, carousel5
+            carousel1, carousel2, carousel3, carousel5, carousel6
         ]);
 
         // Duplicate the images to simulate infinite loop
