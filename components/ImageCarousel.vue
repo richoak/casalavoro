@@ -1,6 +1,6 @@
 <template>
     <main class="bg-white dark:bg-gray-900">
-        <section class="container px-6 py-10 mx-auto space-y-10">
+        <section class="container px-6 py-10 mx-auto space-y-6">
             <div class="text-center">
                 <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white"
                     data-aos="flip-left">Innovation in Action</h1>
@@ -29,21 +29,21 @@ import carousel2 from '@/assets/img/homely.png'
 import carousel3 from '@/assets/img/iqly.png'
 import carousel5 from '@/assets/img/MSQ.png'
 import carousel6 from '@/assets/img/ttp.png'
-import carousel7 from '@/assets/img/MSQ2.png'
+// import carousel7 from '@/assets/img/MSQ2.png'
 import carousel8 from '@/assets/img/novatoons.png'
 export default defineComponent({
     name: 'ContinuousCarousel',
     setup() {
         const images = ref([
-            carousel1, carousel2, carousel3, carousel5, carousel6, carousel7, carousel8
+            carousel1, carousel2, carousel3, carousel5, carousel6, carousel8
         ]);
 
         // Duplicate the images to simulate infinite loop
         const allImages = ref([...images.value, ...images.value]);
 
         const offset = ref(0);
-        const itemWidth = 300; // width of each image
-        const scrollSpeed = 2; // speed in pixels
+        const itemWidth = 400; // width of each image
+        const scrollSpeed = 1; // speed in pixels
 
         let interval: number | undefined;
 
@@ -75,7 +75,7 @@ export default defineComponent({
 <style scoped>
 .carousel-container {
     width: 100%;
-    height: 500px;
+    height: 610px;
     /* Adjust as needed */
 }
 
@@ -85,7 +85,7 @@ export default defineComponent({
 }
 
 .image-item {
-    width: 300px;
+    width: 400px;
     /* Ensure this matches `itemWidth` in script */
     flex-shrink: 0;
 }
