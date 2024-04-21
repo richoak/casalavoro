@@ -15,7 +15,7 @@
             <div class="carousel-container overflow-hidden relative">
                 <div class="carousel-track flex gap-x-5" :style="{ transform: `translateX(-${offset}px)` }">
                     <div class="image-item flex-none w-full" v-for="(image, index) in allImages" :key="index">
-                        <img :src="image" class="h-full w-full object-cover object-center" alt="">
+                        <img :src="image" class="h-full w-full object-cover rounded-xl object-center" alt="">
                     </div>
                 </div>
             </div>
@@ -24,16 +24,18 @@
 </template>
 
 <script lang="ts">
-import carousel1 from '@/assets/img/business1.png'
-import carousel2 from '@/assets/img/business2.png'
-import carousel3 from '@/assets/img/business3.png'
-import carousel5 from '@/assets/img/business5.png'
-import carousel6 from '@/assets/img/business7.png'
+import carousel1 from '@/assets/img/grabhub.png'
+import carousel2 from '@/assets/img/homely.png'
+import carousel3 from '@/assets/img/iqly.png'
+import carousel5 from '@/assets/img/MSQ.png'
+import carousel6 from '@/assets/img/ttp.png'
+import carousel7 from '@/assets/img/MSQ2.png'
+import carousel8 from '@/assets/img/novatoons.png'
 export default defineComponent({
     name: 'ContinuousCarousel',
     setup() {
         const images = ref([
-            carousel1, carousel2, carousel3, carousel5, carousel6
+            carousel1, carousel2, carousel3, carousel5, carousel6, carousel7, carousel8
         ]);
 
         // Duplicate the images to simulate infinite loop
