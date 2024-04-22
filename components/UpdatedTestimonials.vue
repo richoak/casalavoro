@@ -48,9 +48,9 @@
                             alt="">
 
                         <div class="mx-2">
-                            <h1 class="font-semibold text-gray-800 dark:text-white" data-aos="flip-left">Sam</h1>
-                            <span class="text-sm text-gray-500 dark:text-gray-400" data-aos="flip-left">CEO,
-                                Grubhub</span>
+                            <h1 class="font-semibold text-gray-800 dark:text-white" data-aos="flip-left">Vivien</h1>
+                            <span class="text-sm text-gray-500 dark:text-gray-400" data-aos="flip-left">Co-founder,
+                                Grabhub</span>
                         </div>
                     </div>
                 </div>
