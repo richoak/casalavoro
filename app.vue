@@ -1,9 +1,10 @@
 <template>
-  <div id="app">
-    <NuxtPage />
-  </div>
+  <main>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </main>
 </template>
-
 <style lang="css">
   @tailwind base;
   @tailwind components;
