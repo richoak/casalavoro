@@ -16,12 +16,12 @@ export default defineNuxtConfig({
       enabled: true
     },
     meta: {
-      title: "Casalavoro Profile",
+      title: "Casalavoro",
       author: "Marquis",
       mobileAppIOS: false,
       mobileApp: true,
       description:
-        "Casalavoro Profile",
+        "The safest, reliable, and most profitable real estate investment opportunities in Nigeria.",
       theme_color: "#27396B",
       background_color: "#27396B",
       display: "standalone",

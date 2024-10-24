@@ -13,7 +13,8 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div class="text-center">
-          <h1 class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">CASALAVORO PROFILE</h1>
+          <h1 class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">Build wealth with Casalavoro</h1>
+          <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Finding the safest, reliable, and most profitable real estate investment opportunities for our clients.</p>
         </div>
       </div>
     </div>
