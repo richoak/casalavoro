@@ -16,12 +16,12 @@ export default defineNuxtConfig({
       enabled: true
     },
     meta: {
-      title: "Buildr",
+      title: "Casalavoro Profile",
       author: "Marquis",
       mobileAppIOS: false,
       mobileApp: true,
       description:
-        "specialize in software development, product design, and bespoke solutions to help businesses innovate and thrive in the digital age.",
+        "Casalavoro Profile",
       theme_color: "#27396B",
       background_color: "#27396B",
       display: "standalone",
