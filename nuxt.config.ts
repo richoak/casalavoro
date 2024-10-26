@@ -16,12 +16,12 @@ export default defineNuxtConfig({
       enabled: true
     },
     meta: {
-      title: "Buildr",
+      title: "Casalavoro",
       author: "Marquis",
       mobileAppIOS: false,
       mobileApp: true,
       description:
-        "specialize in software development, product design, and bespoke solutions to help businesses innovate and thrive in the digital age.",
+        "The safest, reliable, and most profitable real estate investment opportunities in Nigeria.",
       theme_color: "#27396B",
       background_color: "#27396B",
       display: "standalone",
@@ -62,7 +62,10 @@ export default defineNuxtConfig({
         strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
       },
     ],
-  }
+  },
+  dir: {
+    static: 'public', // Ensure the public folder is treated as static
+  },
   // modules: [
   //   '@nuxtjs/pwa'
   // ],
