@@ -191,7 +191,7 @@ async function handleSubmit() {
         formData.value.tell_us_more_about_your_project = ''
     } catch (error) {
         if (process.client) {
-            useNuxtApp().$toast('Error submitting form');
+            // useNuxtApp().$toast('Error submitting form');
         }
     } finally {
         processing.value = false
