@@ -2,12 +2,12 @@
  <main>
     <div class="overflow-hidden bg-white py-24 sm:py-32">
       <section class="max-w-7xl mx-auto lg:flex space-y-4 lg:space-y-0 justify-center items-center gap-x-6 my-6">
-      <!-- <div>
+      <div>
         <video width="600" controls>
-          <source src="/10.mp4" type="video/mp4" />
+          <source src="/videos/H.mp4.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>  -->
+      </div> 
       </section>
         <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
           <div class="max-w-4xl">
@@ -126,12 +126,12 @@
       </div>
 
       <section class="max-w-7xl mx-auto lg:flex space-y-4 lg:space-y-0 justify-center items-center gap-x-6 pb-10 my-6">
-        <!-- <div>
+        <div>
           <video width="600" controls>
-            <source src="/9.mp4" type="video/mp4" />
+            <source src="/videos/I.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </div>  -->
+        </div> 
         </section>
 
       <div class="overflow-hidden bg-gray-50 py-16 lg:py-24">

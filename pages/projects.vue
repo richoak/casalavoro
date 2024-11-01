@@ -101,12 +101,12 @@
             </div>
           </div>
 
-          <!-- <div class="bg-gray-900 flex justify-center items-center">
+          <div class="bg-gray-900 flex justify-center items-center">
             <video width="600" controls>
-              <source src="/4.mp4" type="video/mp4" />
+              <source src="/videos/D.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div> -->
+          </div>
           
 
           <div class="bg-gray-900 py-32">
@@ -227,12 +227,12 @@
                         The strategic focus of this project is to develop the first-ever self-service automated residence in the prestigious Maitama district of Abuja FCT. Maitama Residence will be the first of its kind offering self service automation, exceptional design, smart and one of the first energy saving residence containing 3 units of one bedroom and 6 units of
                         two bedroom at 10 Osun Close off Osun Crescent, Maitama, Abuja FCT.</p>
                     </div>
-                    <!-- <div class="bg-gray-800 flex justify-center items-center py-10">
+                    <div class="bg-gray-800 flex justify-center items-center py-10">
                       <video width="600" controls>
-                        <source src="/5.mp4" type="video/mp4" />
+                        <source src="/videos/E.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
-                    </div>  -->
+                    </div> 
                   </div>
                 </div>
               </div>
@@ -288,12 +288,12 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="bg-gray-900 flex justify-center items-center py-10">
+            <div class="bg-gray-900 flex justify-center items-center py-10">
               <video width="600" controls>
-                <source src="/6.mp4" type="video/mp4" />
+                <source src="/videos/F.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-            </div>   -->
+            </div>  
           </div>
     </main>
 </template>
