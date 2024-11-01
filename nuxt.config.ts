@@ -66,6 +66,13 @@ export default defineNuxtConfig({
   dir: {
     static: 'public', // Ensure the public folder is treated as static
   },
+  vite: {
+    server: {
+      fs: {
+        allow: ['.'], // Allow Vite to access your project's root directory
+      },
+    },
+  },
   // modules: [
   //   '@nuxtjs/pwa'
   // ],

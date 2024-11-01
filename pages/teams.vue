@@ -16,18 +16,18 @@
         </div>
       </div>  
   <section class="max-w-7xl mx-auto lg:flex space-y-4 lg:space-y-0 justify-center items-center gap-x-6 my-6 p-4">
-    <!-- <div>
+    <div>
       <video width="600" controls>
-        <source src="/5.mp4" type="video/mp4" />
+        <source src="/videos/D.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-    </div>   -->
-    <!-- <div>
+    </div>  
+    <div>
       <video width="600" controls>
-        <source src="/7.mp4" type="video/mp4" />
+        <source src="/videos/G.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-    </div>  -->
+    </div> 
   </section>
   <div class="bg-white pt-20">
     <div class="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-6 lg:px-8 xl:grid-cols-5">
@@ -98,12 +98,12 @@ Awolowo University lle ife all are prestigious reputable institutions.
   </div>
 
   <section class="max-w-7xl mx-auto lg:flex space-y-4 lg:space-y-0 justify-center items-center gap-x-6 my-6 p-4">
-    <!-- <div>
+    <div>
       <video width="600" controls>
-        <source src="/5.mp4" type="video/mp4" />
+        <source src="/videos/E.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-    </div>   -->
+    </div>  
   </section>
 
 <div class="overflow-hidden bg-white">
